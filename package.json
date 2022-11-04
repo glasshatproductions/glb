@@ -10,6 +10,8 @@
   "devDependencies": {
     "@types/three": "^0.139.0",
     "@types/webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.5.8.tgz",
+    "@webpack-cli/configtest": "^1.2.0",
+    "@webpack-cli/serve": "^1.7.0",
     "parcel-bundler": "^1.6.1",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "typescript": "4.4.4",
@@ -31,5 +33,8 @@
         "staticOutDir": "assets"
       }
     ]
+  },
+  "dependencies": {
+    "acorn": "^8.8.1"
   }
 }
